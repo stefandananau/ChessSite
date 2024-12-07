@@ -18,6 +18,11 @@ namespace Infrastructure.Repositories
             _dataContext.Users.Remove(user);
         }
 
+        public void UpdateUser(User user)
+        {
+            _dataContext.Users.Update(user);
+        }
+
         public User GetUserById(int id)
         {
             var result = _dataContext.Users.FirstOrDefault(user => user.Id == id);
@@ -27,6 +32,12 @@ namespace Infrastructure.Repositories
         public User GetUserByEmail(string email)
         {
             var result = _dataContext.Users.FirstOrDefault(user => user.Email == email);
+            return result;
+        }
+
+        public User GetUserByUserName(string userName)
+        {
+            var result = _dataContext.Users.FirstOrDefault(user => user.Username == userName);
             return result;
         }
     }

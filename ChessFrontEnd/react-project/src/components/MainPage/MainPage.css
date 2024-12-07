@@ -1,0 +1,53 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%; /* Full height of the viewport */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Main container for the page */
+.main-page {
+    display: flex; /* Flexbox for the side menu + content layout */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Side Menu (Always Visible) */
+.side-menu {
+    background-color: #2c3e50;
+    color: white;
+    width: 240px;
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fixed position so it stays in place */
+    left: 0;
+    top: 0;
+    padding-top: 70px; /* To leave space for the top bar */
+}
+
+.side-menu nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu nav ul li {
+    margin: 20px 0;
+}
+
+.side-menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 500;
+}
+
+.side-menu nav ul li a:hover {
+    background-color: #1abc9c;
+}

@@ -1,4 +1,6 @@
-﻿using Domain.Entities;
+﻿using Application.DTOs;
+using Application.Interfaces;
+using Domain.Entities;
 using Domain.Enums;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -22,7 +24,7 @@ namespace Application.Services
             _securityKey = config["JWT:SecurityKey"];
         }
 
-        public string GetToken(User user, UserType role)
+        public TokenDto GetToken(IUsersRepository usersRepository, User user, UserRole role, bool populateExp)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 
@@ -30,6 +32,7 @@ namespace Application.Services
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var roleClaim = new Claim(ClaimTypes.Role, role.ToString());
+            var nameClaim = new Claim(ClaimTypes.Name, user.Username);
             var idClaim = new Claim("id", user.Id.ToString());
             var infoClaim = new Claim("email", user.Email);
 
@@ -37,15 +40,37 @@ namespace Application.Services
             {
                 Issuer = "Backend",
                 Audience = "Frontend",
-                Subject = new ClaimsIdentity(new[] { roleClaim, idClaim, infoClaim }),
-                Expires = DateTime.Now.AddYears(1),
+                Subject = new ClaimsIdentity(new[] { nameClaim, roleClaim, idClaim, infoClaim }),
+                Expires = DateTime.Now.AddMinutes(10),
                 SigningCredentials = credentials
             };
 
             var token = jwtTokenHandler.CreateToken(tokenDescriptior);
             var tokenString = jwtTokenHandler.WriteToken(token);
 
-            return tokenString;
+            var refreshToken = GenerateRefreshToken();
+            user.RefreshToken = refreshToken;
+            if (populateExp)
+            {
+                user.RefreshTokenExpiryTime = DateTime.Now.AddDays(1);
+            }
+            usersRepository.Update(user);
+            usersRepository.SaveChanges();
+
+            var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
+            return new TokenDto(accessToken, refreshToken, role.ToString());
+        }
+
+        public TokenDto RefreshToken(IUsersRepository usersRepository, TokenDto tokenDto)
+        {
+            var principal = GetPrincipalFromExpiredToken(tokenDto.AccessToken);
+            var user = usersRepository.GetUserByUserName(principal.Identity.Name);
+            if(user is null || user.RefreshToken != tokenDto.RefreshToken || user.RefreshTokenExpiryTime <= DateTime.Now)
+            {
+                throw new Exception("TOKEN NOT VALID");
+            }
+
+            return GetToken(usersRepository, user, user.Role, false);
         }
 
         public bool ValidateToken(string tokenString)
@@ -142,6 +167,38 @@ namespace Application.Services
                 areSame &= (a[i] == b[i]);
             }
             return areSame;
+        }
+        private string GenerateRefreshToken()
+        {
+            var randomNumber = new byte[32];
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(randomNumber);
+                return Convert.ToBase64String(randomNumber);
+            }
+        }
+
+        private ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
+        {
+            var tokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = false,
+                ValidateAudience = false,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ClockSkew = TimeSpan.FromMinutes(5),
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("NQsTG8xgoZH2WMtnzUKbhQNuWjb9ZkSx"))
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            SecurityToken securityToken;
+            var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out securityToken);
+            var jwtSecurityToken = securityToken as JwtSecurityToken;
+            if (jwtSecurityToken is null || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+            {
+                throw new SecurityTokenException("Invalid Token");
+            }
+            return principal;
         }
     }
 }

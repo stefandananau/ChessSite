@@ -8,6 +8,8 @@ namespace Domain.Entities
         public required string PasswordHash { get; set; }
         public string Username { get; set; } = string.Empty;
         public DateTime DateOfBirth { get; set; }
-        public UserType Type { get; set; }
+        public UserRole Role { get; set; }
+        public string? RefreshToken { get; set; }
+        public DateTime RefreshTokenExpiryTime { get; set; }
     }
 }
