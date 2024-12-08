@@ -12,9 +12,9 @@ namespace Application.DTOs
         [Required]
         public required string Password { get; set; }
 
-        public string Username { get; set; } = string.Empty;
+        public required string Username { get; set; }
 
-        public UserRole Role { get; set; }
+        public UserRole Role { get; set; } = UserRole.User;
 
         public User ToUser() => new User { Email = Email, PasswordHash = Password, Username = Username, Role = Role };
     }

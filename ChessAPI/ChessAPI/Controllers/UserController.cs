@@ -21,13 +21,20 @@ namespace ChessAPI.Controllers
         [AllowAnonymous]
         public IActionResult Register([FromBody] RegisterDTO registerData)
         {
-            if (_userService.RegisterUser(registerData))
+            try
             {
-                return Ok("User registered successfully");
+                if (_userService.RegisterUser(registerData))
+                {
+                    return Ok("User registered successfully");
+                }
+                else
+                {
+                    return BadRequest(error: new { error = "Something wrong happened" });
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return BadRequest("Something wrong happened");
+                return BadRequest(error: new { error = ex.Message });
             }
         }
 
@@ -35,35 +42,66 @@ namespace ChessAPI.Controllers
         [AllowAnonymous]
         public IActionResult Login([FromBody] LoginDTO loginData)
         {
-            var jwtToken = _userService.ValidateLogin(loginData);
-            return Ok(jwtToken);
+            try
+            {
+                var jwtToken = _userService.ValidateLogin(loginData);
+                return Ok(jwtToken);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(error: new { error = ex.Message });
+            }
         }
 
         [HttpPost("refresh")]
         [AllowAnonymous]
         public IActionResult Refresh([FromBody] TokenDto refreshData)
         {
-            var tokenDtoToReturn = _userService.RefreshToken(refreshData);
-            return Ok(tokenDtoToReturn);
+            try
+            {
+                var tokenDtoToReturn = _userService.RefreshToken(refreshData);
+                return Ok(tokenDtoToReturn);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(error: new { error = ex.Message });
+            }
+
         }
 
         [HttpGet("all-users")]
-        [Authorize]
+        [AllowAnonymous]
         public ActionResult<List<User>> GetAllUsers()
         {
-            var users = _userService.GetAll();
-            return Ok(users);
+            try {
+                var users = _userService.GetAll();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(error: new { error = ex.Message });
+
+            }
         }
 
         [HttpDelete("delete")]
         [Authorize(Roles = "Admin")]
         public ActionResult DeleteUserById([FromBody] IdDTO user)
         {
-            if (_userService.RemoveUserById(user))
+            try
             {
-                return Ok("User deleted");
+                if (_userService.RemoveUserById(user))
+                {
+                    return Ok("User deleted");
+                }
+                return BadRequest(error: new { error = "User not found" });
             }
-            return BadRequest("User is not in list of users");
+            catch (Exception ex)
+            {
+                return BadRequest(error: new { error = ex.Message });
+
+            }
         }
     }
 }
+
