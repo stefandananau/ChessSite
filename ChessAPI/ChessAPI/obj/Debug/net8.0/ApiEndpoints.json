@@ -37,6 +37,22 @@
   },
   {
     "ContainingType": "ChessAPI.Controllers.UserController",
+    "Method": "ExternalSignup",
+    "RelativePath": "api/User/externalSignup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "externalSignupData",
+        "Type": "Application.DTOs.ExternalSignupDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChessAPI.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/User/login",
     "HttpMethod": "POST",

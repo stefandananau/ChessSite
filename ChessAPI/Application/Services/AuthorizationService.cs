@@ -52,13 +52,13 @@ namespace Application.Services
             user.RefreshToken = refreshToken;
             if (populateExp)
             {
-                user.RefreshTokenExpiryTime = DateTime.Now.AddDays(1);
+                user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
             }
             usersRepository.Update(user);
             usersRepository.SaveChanges();
 
             var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
-            return new TokenDto(accessToken, refreshToken, role.ToString());
+            return new TokenDto(accessToken, refreshToken);
         }
 
         public TokenDto RefreshToken(IUsersRepository usersRepository, TokenDto tokenDto)

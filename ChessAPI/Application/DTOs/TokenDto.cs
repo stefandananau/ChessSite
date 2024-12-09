@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs
 {
-    public record TokenDto(string AccessToken, string RefreshToken, string Role)
+    public record TokenDto(string AccessToken, string RefreshToken)
     {
     }
 }

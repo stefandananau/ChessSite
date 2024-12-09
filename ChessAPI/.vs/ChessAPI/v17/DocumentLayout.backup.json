@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\data\\chessdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\chessdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\settings\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\settings\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,6 +31,34 @@
       "RelativeMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\externalsignupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\externalsignupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\data\\chessdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\chessdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\domain\\constants\\regularexpressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\regularexpressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{5BAC63B9-6DDE-4EF6-A1DA-3F101ACE84D5}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\identitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\iddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\iddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -71,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\application\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC64D7E6-9F54-46C1-93E0-44A511A14739}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\migrations\\chessdatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,18 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\migrations\\20241116163407_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241116163407_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241205230057_RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241205230057_RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\settings\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|solutionrelative:chessapi\\settings\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9510F20D-B58A-4D52-A9EA-5C98D67DFA52}|ChessAPI\\ChessAPI.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\chessapi\\chessapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -117,6 +113,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\migrations\\20241117043858_typetorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241117043858_typetorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\migrations\\20241207012633_refreshtoken2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241207012633_refreshtoken2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|c:\\users\\danan\\documents\\github\\chesssite\\chessapi\\infrastructure\\migrations\\20241205230057_refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14970B8-2E53-4D11-B7C3-35458636F3D1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241205230057_refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,37 +130,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExternalSignupDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\ExternalSignupDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ExternalSignupDTO.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\ExternalSignupDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ExternalSignupDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:59:13.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RegularExpressions.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\RegularExpressions.cs",
-              "RelativeDocumentMoniker": "Domain\\Constants\\RegularExpressions.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\RegularExpressions.cs",
-              "RelativeToolTip": "Domain\\Constants\\RegularExpressions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T05:22:06.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IdentityData.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\IdentityData.cs",
-              "RelativeDocumentMoniker": "Domain\\Constants\\IdentityData.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\IdentityData.cs",
-              "RelativeToolTip": "Domain\\Constants\\IdentityData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T06:31:52.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
@@ -169,28 +160,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ChessAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "ChessAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T18:52:41.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBIAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:35:02.06Z",
               "EditorCaption": ""
             },
             {
@@ -234,215 +212,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChessDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Data\\ChessDataContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ChessDataContext.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Data\\ChessDataContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ChessDataContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAACxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:46:47.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Services\\AuthorizationService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthorizationService.cs",
               "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Services\\AuthorizationService.cs",
               "RelativeToolTip": "Application\\Services\\AuthorizationService.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAUwGMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAuwDwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T18:16:25.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwEoAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T17:37:52.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IdDTO.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\IdDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\IdDTO.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\IdDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\IdDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T04:46:12.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TokenDto.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\TokenDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\TokenDto.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\TokenDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\TokenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:01:37.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:19:21.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-07T01:39:51.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20241207012633_RefreshToken2.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T01:26:33.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IUsersRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IUsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:19:01.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T17:45:05.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\Program.cs",
               "RelativeDocumentMoniker": "ChessAPI\\Program.cs",
               "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\Program.cs",
               "RelativeToolTip": "ChessAPI\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:17:31.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T17:24:34.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ChessDataContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwCkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:34.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20241116163407_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116163407_Initial.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241116163407_Initial.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116163407_Initial.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241116163407_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:07.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ChessAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\appsettings.json",
               "RelativeToolTip": "ChessAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-16T16:24:12.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20241205230057_RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
-              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:00:58.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 2,
               "Title": "Dependencies.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\Settings\\Dependencies.cs",
               "RelativeDocumentMoniker": "ChessAPI\\Settings\\Dependencies.cs",
@@ -455,7 +277,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T15:35:02.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChessDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Data\\ChessDataContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ChessDataContext.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Data\\ChessDataContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ChessDataContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAACxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T15:46:47.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IdentityData.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\IdentityData.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\IdentityData.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\IdentityData.cs",
+              "RelativeToolTip": "Domain\\Constants\\IdentityData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T06:31:52.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\TokenDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:01:37.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegularExpressions.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\RegularExpressions.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\RegularExpressions.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Domain\\Constants\\RegularExpressions.cs",
+              "RelativeToolTip": "Domain\\Constants\\RegularExpressions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T05:22:06.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IdDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\IdDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\IdDTO.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\DTOs\\IdDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\IdDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T04:46:12.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:19:21.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T01:39:51.382Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "20241207012633_RefreshToken2.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241207012633_RefreshToken2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:26:33.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IUsersRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:19:01.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Application\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:45:05.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:24:34.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChessDataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\ChessDataContextModelSnapshot.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:34:34.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241116163407_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116163407_Initial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241116163407_Initial.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116163407_Initial.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241116163407_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:34:07.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241205230057_RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
+              "ToolTip": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241205230057_RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:00:58.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "20241117043858_typetorole.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241117043858_typetorole.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241117043858_typetorole.cs",
@@ -467,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "20241116184401_Third.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116184401_Third.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241116184401_Third.cs",
@@ -479,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ChessAPI.csproj",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\ChessAPI\\ChessAPI.csproj",
               "RelativeDocumentMoniker": "ChessAPI\\ChessAPI.csproj",
@@ -487,12 +491,11 @@
               "RelativeToolTip": "ChessAPI\\ChessAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-16T17:42:07.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T17:42:07.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "20241116163709_Second.cs",
               "DocumentMoniker": "C:\\Users\\danan\\Documents\\GitHub\\ChessSite\\ChessAPI\\Infrastructure\\Migrations\\20241116163709_Second.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241116163709_Second.cs",

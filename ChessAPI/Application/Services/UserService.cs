@@ -11,6 +11,8 @@ namespace Application.Services
         private readonly IUsersRepository _usersRepository;
         private readonly AuthorizationService _authorizationService;
 
+        private string secret_identifier = "thisisthesecretidentifier123";
+
         public UserService(IUsersRepository usersRepository, AuthorizationService authorizationService)
         {
             _usersRepository = usersRepository;
@@ -61,6 +63,25 @@ namespace Application.Services
 
             var tokenDto = _authorizationService.GetToken(_usersRepository, user, user.Role, true);
 
+            return tokenDto;
+        }
+
+        public TokenDto ValidateExternalSignup(ExternalSignupDTO userDto)
+        {
+            var user = _usersRepository.GetUserByEmail(userDto.Email);
+            var identifier = userDto.Identifier;
+            if(user == null)
+            {
+                userDto.Identifier = _authorizationService.HashPassword(secret_identifier + userDto.Identifier);
+                user = userDto.ToUser();
+                _usersRepository.AddUser(user);
+                _usersRepository.SaveChanges();
+            }
+            if (!_authorizationService.VerifyHashedPassword(user.PasswordHash, secret_identifier + identifier))
+            {
+                throw new Exception("Email already in use.");
+            }
+            var tokenDto = _authorizationService.GetToken(_usersRepository, user, user.Role, true);
             return tokenDto;
         }
 

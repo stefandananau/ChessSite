@@ -7,13 +7,15 @@ import HomePage from "./pages/HomePage";
 import RootLayout from "./pages/RootLayout";
 import AuthenticationPage, {
   authenticationAction,
+  authenticationLoader,
 } from "./pages/AuthenticationPage";
-import { checkAuthorizationToken } from "./utils/AuthorizationProvider";
+import { refreshToken } from "./utils/AuthorizationProvider";
+import { logoutAction } from "./pages/LogoutPage";
 const router = createBrowserRouter([
   {
     path: "/main",
     element: <RootLayout />,
-    loader: checkAuthorizationToken,
+    loader: refreshToken,
     children: [
       {
         index: true,
@@ -24,7 +26,12 @@ const router = createBrowserRouter([
   {
     path: "/authorize",
     element: <AuthenticationPage />,
+    loader: authenticationLoader,
     action: authenticationAction,
+  },
+  {
+    path: "/logout",
+    action: logoutAction,
   },
   { path: "/", element: <Navigate to="/main" /> },
 ]);

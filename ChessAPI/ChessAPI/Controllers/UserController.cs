@@ -19,7 +19,7 @@ namespace ChessAPI.Controllers
 
         [HttpPost("register")]
         [AllowAnonymous]
-        public IActionResult Register([FromBody] RegisterDTO registerData)
+        async public IActionResult Register([FromBody] RegisterDTO registerData)
         {
             try
             {
@@ -50,6 +50,23 @@ namespace ChessAPI.Controllers
             catch (Exception ex)
             {
                 return BadRequest(error: new { error = ex.Message });
+            }
+        }
+
+        [HttpPost("externalSignup")]
+        [AllowAnonymous]
+        public IActionResult ExternalSignup([FromBody] ExternalSignupDTO externalSignupData)
+        {
+            {
+                try
+                {
+                    var jwtToken = _userService.ValidateExternalSignup(externalSignupData);
+                    return Ok(jwtToken);
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest(error: new { error = ex.Message });
+                }
             }
         }
 
@@ -85,7 +102,7 @@ namespace ChessAPI.Controllers
         }
 
         [HttpDelete("delete")]
-        [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public ActionResult DeleteUserById([FromBody] IdDTO user)
         {
             try

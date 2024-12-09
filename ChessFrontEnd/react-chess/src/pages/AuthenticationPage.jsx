@@ -1,8 +1,26 @@
 import { redirect } from "react-router-dom";
 import AuthenticationForm from "../components/AuthorizationForm/AuthenticationForm";
+import {
+  getAuthorizationToken,
+  setAuthorizationToken,
+} from "../utils/AuthorizationProvider";
+import GoogleSignup from "../components/GoogleSignup/GoogleSignup";
+import FacebookSignup from "../components/FacebookSignup/FacebookSignup";
 
 export default function AuthenticationPage() {
-  return <AuthenticationForm />;
+  return (
+    <>
+      <AuthenticationForm />
+      <GoogleSignup />
+      <FacebookSignup />
+    </>
+  );
+}
+
+export function authenticationLoader() {
+  if (getAuthorizationToken()) {
+    return redirect("/");
+  }
 }
 
 export async function authenticationAction({ request }) {
@@ -36,8 +54,7 @@ async function login(data) {
   });
   if (response.ok) {
     data = await response.json();
-    localStorage.setItem("token", data.accessToken);
-    localStorage.setItem("refreshToken", data.refreshToken);
+    setAuthorizationToken(data);
     return redirect("/main");
   }
   if (response.status === 400) {
